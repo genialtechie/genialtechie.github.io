@@ -9,54 +9,81 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div id="header">
-        <span class="logo">&lt;genialtechie/&gt;</span>
-        <div class="design">FULL-STACK DEV</div>
-    </div>
-    <nav>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">INTERESTS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">MY WORK</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SAY HI!</a>
-            </li>
-          </ul>
-    </nav>
-    <div id="about">
-        <h1>What I do?</h1>
-        <div class="abt-dets">
-            <span class="about-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi corrupti cum est, quia qui dicta asperiores, 
-                similique voluptatibus sequi, deserunt ab doloremque ullam in aliquam harum perspiciatis incidunt dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Magnam animi sed voluptatum ab harum fugit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, fuga!
-            </span>
-            <img src="src/img/laptop.png" class="abt-img" alt="">
+    <div id="body" class="ctnr">
+        <div id="header" class="ctnr">
+            <span class="logo">&lt;genialtechie/&gt;</span>
+            <div class="design">FULL-STACK DEV</div>
         </div>
-        <div class="btn">CHECK OUT MY WORK</div>
-    </div>
-    <div id="stack">
-        <span class="stack-icon">
-            <img src="src/img/js-icon.png" alt="JavaScript Icon">
-        </span>
-        <span class="stack-icon">
-            <img src="src/img/nodejs-icon.svg" alt="NodeJS Icon">
-        </span>
-        <span class="stack-icon">
-            <img src="src/img/express-js-icon.svg" alt="Expressjs Icon">
-        </span>
-        <span class="stack-icon">
-            <img src="src/img/truffle-icon.svg" alt="Truffle Icon">
-        </span>
-        <span class="stack-icon">
-            <img src="src/img/web3js-icon.svg" alt="Web3js Icon">
-        </span>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">INTERESTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">MY WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SAY HI!</a>
+                </li>
+              </ul>
+        </nav>
+        <div id="about" class="ctnr">
+            <h1>What I do?</h1>
+            <div id="abt-dets" class="ctnr">
+                <span class="about-text txt">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi corrupti cum est, quia qui dicta asperiores, 
+                    similique voluptatibus sequi, deserunt ab doloremque ullam in aliquam harum perspiciatis incidunt dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magnam animi sed voluptatum ab harum fugit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, fuga!
+                </span>
+                <img src="src/img/laptop.png" class="abt-img" alt="">
+            </div>
+            <div class="mybtn btn">CHECK OUT MY WORK</div>
+        </div>
+        <div id="stack" class="ctnr">
+            <span class="stack-icon">
+                <img src="src/img/js-icon.png" alt="JavaScript Icon">
+            </span>
+            <span class="stack-icon">
+                <img src="src/img/nodejs-icon.svg" alt="NodeJS Icon">
+            </span>
+            <span class="stack-icon">
+                <img src="src/img/express-js-icon.svg" alt="Expressjs Icon">
+            </span>
+            <span class="stack-icon">
+                <img src="src/img/truffle-icon.svg" alt="Truffle Icon">
+            </span>
+            <span class="stack-icon">
+                <img src="src/img/web3js-icon.svg" alt="Web3js Icon">
+            </span>
+        </div>
+        <div id="interests" class="ctnr">
+            <h1>Interests</h1>
+            <div class="txt intrsts-txt">
+                <ul>
+                    <li class="soccer-item intrst">
+                        <span>I love playing soccer, and I am a huge Manchester United fan! Posters and everything.</span>
+                    </li>
+                    <li class="game-item intrst">
+                        <span>I hop on the PlayStation from time to time, add my PSN, just don't make the mistake of challenging me </span>
+                    </li>
+                    <li class="wrld-item intrst">
+                        <span>I watch videos about world affairs and debate them with friends when I have the time.</span>
+                    </li>
+                    <li class="nft-item intrst">
+                        <span>I am invested in Ethereum and NFTs, and I am very optimistic about the future of Web3 and technology.</span>
+                    </li>
+                    <li class="hats-item intrst">
+                        <span>I love collecting hats!</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="my-work" class="ctnr">
+            <h1>My Work</h1>
+        </div>
     </div>
     <script src="src/app.js"></script>
 </body>
