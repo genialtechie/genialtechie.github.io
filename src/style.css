@@ -41,6 +41,10 @@ a:hover{
     color: #e5e5e5;
     text-align: center;
 }
+.nav-bar{
+    background-color: #e5e5e5;
+    width: 100%;
+}
 .nav-link{
     color: #000000;
     font: 300 20px 'Oswald', sans-serif;
