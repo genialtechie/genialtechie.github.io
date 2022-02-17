@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Oswald:wght@300;500&family=Roboto+Mono:wght@200&display=swap');
+
 body{
     background-color: #e5e5e5;
     font-family: 'Oswald', sans-serif;
@@ -41,10 +42,6 @@ a:hover{
     color: #e5e5e5;
     text-align: center;
 }
-.nav-bar{
-    background-color: #e5e5e5;
-    width: 100%;
-}
 .nav-link{
     color: #000000;
     font: 300 20px 'Oswald', sans-serif;
@@ -61,6 +58,12 @@ a:hover{
 #abt-dets {
     background: transparent;
     flex-direction: row;
+}
+
+.abt-img {
+    width: 210px;
+    height: 220px;
+    background: url('img/laptop.png') no-repeat center center;
 }
 
 .txt {
@@ -93,8 +96,33 @@ a:hover{
     height: 300px;
 }
 
+#stack span {
+    width: 20%;
+    height: 200px;
+}
+
+.js-icon {
+    background: url('img/js-icon.png') no-repeat center center;
+}
+
+.nodejs-icon {
+    background: url('img/nodejs-icon.svg') no-repeat center center;
+}
+
+.express-icon {
+    background: url('img/express-js-icon.svg') no-repeat center center;
+}
+
+.truffle-icon {
+    background: url('img/truffle-icon.svg') no-repeat center center;
+}
+
+.web3-icon {
+    background: url('img/web3js-icon.svg') no-repeat center center;
+}
+
 #interests {
-    margin-top: 60px;
+    padding-top: 60px;
     width: 80%;
 }
 
@@ -126,7 +154,7 @@ a:hover{
 }
 
 #my-work{
-    margin-top: 60px;
+    padding-top: 60px;
     width: 90%;
 }
 
@@ -166,8 +194,67 @@ a:hover{
     height: 30vh;
 }
 
+#contact p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
 .socials{
     width: 80%;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media (max-width: 870px) {
+    .my-work-img img {
+        display: none;
+    }
+    .projects {
+        width: 80%;
+    }
+    .js-icon {
+        background-image: url('img/js-icon2.png');
+    }
+    .nodejs-icon {
+        background-image: url('img/nodejs-icon2.svg');
+    }
+    
+    .express-icon {
+        background-image: url('img/express-js-icon2.svg');
+    }
+    
+    .truffle-icon {
+        background-image: url('img/truffle-icon2.svg');
+    }
+    
+    .web3-icon {
+        background-image: url('img/web3js-icon2.svg');
+    }
+    #interests {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    .design {
+        width: 90%;
+    }
+    .abt-img {
+        background: url('img/laptop2.png') no-repeat center center;
+    }
+}
+
+@media (max-width: 400px){
+    #about {
+        width: 100%;
+    }
+    .abt-img {
+        display: none;
+    }
+    #stack {
+        height: 100px;
+    }
+    #stack span {
+        display: none;
+    }
 }
