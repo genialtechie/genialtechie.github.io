@@ -1,6 +1,6 @@
 {
-  "homepage": "http://genialtechie.github.io/portfolio-v2",
-  "name": "portfolio-v2",
+  "homepage": "http://genialtechie.github.io",
+  "name": "genialtechie.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
