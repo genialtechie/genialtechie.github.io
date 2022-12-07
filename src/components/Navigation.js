@@ -15,7 +15,7 @@ const Navigation = () => {
         <li className="px-3 text-center transition duration-500 ease-in-out hover:text-fuchsia-700 md:hover:text-2xl md:hover:px-5 hover:drop-shadow-md">
           <a href="#about">
             <Home
-              className="md:hidden scale-75"
+              className="md:hidden mx-auto scale-75"
               fill="currentColor"
             />
             <p className="font-mono">Home</p>
@@ -24,7 +24,7 @@ const Navigation = () => {
         <li className="px-3 text-center transition duration-500 ease-in-out hover:text-fuchsia-700 md:hover:text-2xl md:hover:px-5 hover:drop-shadow-md">
           <a href="#my-work">
             <Work
-              className="md:hidden scale-75"
+              className="md:hidden mx-auto scale-75"
               fill="currentColor"
             />
             <p className="font-mono">Portfolio</p>
@@ -33,7 +33,7 @@ const Navigation = () => {
         <li className="px-3 text-center transition duration-500 ease-in-out hover:text-fuchsia-700 md:hover:text-2xl md:hover:px-5 hover:drop-shadow-md">
           <a href="#contact">
             <Contact
-              className="md:hidden scale-75"
+              className="md:hidden mx-auto scale-75"
               fill="currentColor"
             />
             <p className="font-mono">Say hi!</p>
@@ -42,7 +42,7 @@ const Navigation = () => {
         <li className="px-3 text-center transition duration-500 ease-in-out hover:text-fuchsia-700 md:hover:text-2xl md:hover:px-5 md:hover:drop-shadow-md ml-1 border-l-2 md:border-l-4 border-white">
           <a
             href={Pdf}
-            target="_blank"
+            target="_ mx-autoblank"
             rel="noreferrer"
           >
             <Resume

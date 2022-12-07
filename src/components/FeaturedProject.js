@@ -13,7 +13,7 @@ const FeaturedProject = ({
 }) => {
   return (
     <div
-      className={`relative hover:scale-105  w-full flex mt-24 mb-32 ${
+      className={`relative hover:scale-105 md:hover:scale-100 w-full flex mt-24 mb-32 ${
         right ? 'flex-row' : 'flex-row md:flex-row-reverse'
       }`}
     >
@@ -26,7 +26,7 @@ const FeaturedProject = ({
           <img
             src={image}
             alt="Project preview"
-            className="object-fill h-full w-full md:opacity-40 transition duration-300 hover:opacity-100"
+            className="object-fill h-full w-full md:opacity-40 opacity-80 transition duration-300 hover:opacity-100"
           />
         </a>
       </div>
