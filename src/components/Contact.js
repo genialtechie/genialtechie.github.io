@@ -12,7 +12,7 @@ const Contact = () => {
       className="w-full mt-20 mb-10 flex flex-col md:flex-row h-64"
     >
       <Bounce right>
-        <div className="flex flex-row w-full md:h-64 md:flex-col md:w-1/12 justify-around m-4 md:m-0 md:mb-4 md:absolute md:bottom-0 md:left-0">
+        <div className="flex flex-row w-full mb-16 md:h-64 md:flex-col md:w-1/12 justify-around m-4 md:m-0 md:mb-4 md:absolute md:bottom-0 md:left-0">
           <a
             className="self-center transition duration500 hover:text-fuchsia-700"
             href="https://github.com/genialtechie"
@@ -58,10 +58,10 @@ const Contact = () => {
           I am currently open to developer roles, shoot me an email if you like
           what you see!
         </p>
-        <button className="mb-5 gradient-btn">
+        <button className="mb-5 gradient-btn transition-all duration-300 ease-in-out">
           <a href="mailto:only1hbo@icloud.com">Say hi</a>
         </button>
-        <p className="font-mono text-sm text-slate-400">
+        <p className="font-mono text-sm py-10 text-slate-400">
           built by genialtechie
         </p>
       </div>

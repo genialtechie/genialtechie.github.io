@@ -7,7 +7,7 @@ const Homepage = ({ reference }) => {
   return (
     <div
       id="about"
-      className="px-7 w-full md:mx-auto md:w-2/3 pt-32 2xl:pt-40 flex flex-col mb-32"
+      className="px-7 w-full md:mx-auto md:w-2/3 pt-40 flex flex-col mb-10 md:mb-16"
     >
       <div className="mb-6 font-mono text-lg">Hi, my name is</div>
       <div className="mb-6 text-3xl md:text-6xl">Haleem Bello.</div>
@@ -20,7 +20,7 @@ const Homepage = ({ reference }) => {
       </p>
       <button
         onClick={handleClick}
-        className="font-mono p-4 w-fit self-center md:self-auto gradient-btn"
+        className="font-mono p-4 w-fit self-center md:self-auto gradient-btn mt-5 transition-all duration-300 ease-in-out hover:shadow-lg"
       >
         Check out my work!
       </button>

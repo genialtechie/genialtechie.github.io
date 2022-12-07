@@ -54,9 +54,7 @@ const MyWork = forwardRef((props, ref) => {
       </Fade>
 
       <div className="mt-3 flex flex-col">
-        <h2 className=" md:block text-3xl pt-6 mb-6">
-          Other interesting works...
-        </h2>
+        <h2 className=" md:block text-3xl mb-14">Other interesting works...</h2>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {showBtn.projects.slice(0, showBtn.itemsToShow).map((card) => (
             <ProjectCard
@@ -69,7 +67,7 @@ const MyWork = forwardRef((props, ref) => {
           ))}
         </div>
         <button
-          className="font-mono p-4 w-fit mt-4 self-center gradient-btn"
+          className="font-mono p-4 w-fit mt-7 self-center gradient-btn transition-all duration-300 ease-in-out hover:shadow-lg"
           onClick={handleClick}
         >
           {showBtn.expanded ? 'See less ...' : 'See More ...'}
