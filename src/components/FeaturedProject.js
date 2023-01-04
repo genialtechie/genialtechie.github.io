@@ -13,11 +13,11 @@ const FeaturedProject = ({
 }) => {
   return (
     <div
-      className={`relative hover:scale-105 md:hover:scale-100 w-full flex mt-24 mb-32 ${
+      className={`relative group transition duration-500 ease-in-out hover:scale-105 md:hover:scale-100 w-full flex mt-24 mb-32 ${
         right ? 'flex-row' : 'flex-row md:flex-row-reverse'
       }`}
     >
-      <div className="h-96 md:w-3/5">
+      <div className="h-96 md:w-1/2">
         <a
           target="_blank"
           rel="noreferrer"
@@ -26,14 +26,14 @@ const FeaturedProject = ({
           <img
             src={image}
             alt="Project preview"
-            className="object-fill h-full w-full md:opacity-40 opacity-80 transition duration-300 hover:opacity-100"
+            className="object-fill h-full w-full md:opacity-40 opacity-80 transition duration-500 group-hover:opacity-100"
           />
         </a>
       </div>
       <div
         className={`${
           right ? 'right-0' : 'left-0'
-        } absolute top-0 w-4/5 lg:w-3/5 h-full p5 text-md lg:text-lg flex flex-col`}
+        } absolute top-0 w-4/5 lg:w-3/5 h-full p5 text-md lg:text-lg flex flex-col transition duration-500 ease-in-out group-hover:opacity-20`}
       >
         <a
           target="_blank"
@@ -47,11 +47,9 @@ const FeaturedProject = ({
             } p-2 w-fit `}
           >
             <h3 className="font-mono text-sm py-2">Featured Project</h3>
-            <h1 className="hover:cursor-pointer transition duration500 hover:text-fuchsia-700 mb-3 md:mb-7">
-              {title}
-            </h1>
+            <h1 className="mb-3 md:mb-7">{title}</h1>
           </div>
-          <div className={`p-3 lg:p-5 bg-[#202020] opacity-90 shadow-lg`}>
+          <div className={`p-3 lg:p-5 bg-[#202020] opacity-80 shadow-lg`}>
             <p className="mb-4 font-mono">{desc}</p>
             <div className="hidden sm:flex sm:flex-row sm:flex-wrap">
               {tools.map((skill) => (
@@ -76,7 +74,7 @@ const FeaturedProject = ({
             href={github}
           >
             <Github
-              className="mx-2 transition duration500 hover:text-fuchsia-700"
+              className="mx-2"
               fill="currentColor"
             />
           </a>
@@ -86,7 +84,7 @@ const FeaturedProject = ({
             href={preview}
           >
             <Link
-              className="mx-2 scale-50 transition duration500 hover:text-fuchsia-700"
+              className="mx-2 scale-50"
               fill="currentColor"
             />
           </a>

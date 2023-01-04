@@ -1,40 +1,34 @@
-import MusicKeyboard from '../images/music-events.PNG';
-import ExpenseTracker from '../images/expense-tracker.PNG';
-import ColorGame from '../images/rgb-color-game3.PNG';
+import JARentals from '../images/jai.png';
+import loudr from '../images/loudr.png';
 
 export const FEATURED = [
   {
-    title: 'Music Keyboard',
-    desc: "This is a javascript app I built for Wes Bos' 30 days of code challenge. It plays drum sounds and does a little animation depending on the pressed key.",
-    image: MusicKeyboard,
-    tools: ['HTML', 'CSS', 'VanillaJS'],
-    github: 'https://github.com/genialtechie/javascript-music-events',
-    preview:
-      'https://632776409c51cc731cf771ce--effortless-cocada-cb301b.netlify.app/',
+    title: 'JA Inflatables',
+    desc: 'E-commerce website for an event rental company. It features a shop, payment processing and uses the square seller dashboard.',
+    image: JARentals,
+    tools: ['Nextjs', 'Prisma', 'MongoDB', 'Square API'],
+    github: 'https://github.com/genialtechie/event-replan',
+    preview: 'https://event-replan.vercel.app',
     right: true,
   },
   {
-    title: 'Expense Tracker',
-    desc: ' I built this budget app to get familiar with the basics of react. I learnt how to manipulate state, props & I utilized several react hooks like useEffect, and a custom localStorage hook.',
-    image: ExpenseTracker,
-    tools: ['React', 'Tailwind', 'Netlify'],
-    github: 'https://github.com/genialtechie/expense-tracker',
-    preview:
-      'https://62c8e0312db9040f98a8490c--bespoke-medovik-287ab6.netlify.app/',
+    title: 'loudronline',
+    desc: 'Landing page for loudronline, a media platform that connects emerging creators and brands.',
+    image: loudr,
+    tools: ['React', 'Tailwind', 'Firebase'],
+    github: 'https://github.com/genialtechie/loudr-landing',
+    preview: 'https://loudronline.vercel.app',
     right: false,
-  },
-  {
-    title: 'RGB Color Game',
-    desc: 'A game to polish your RGB skills built with pure Javascript. To win, simply guess the corresponding color for the RGB combination.',
-    image: ColorGame,
-    tools: ['HTML', 'CSS', 'VanillaJS'],
-    github: 'https://github.com/genialtechie/Javascript-RGB-Game',
-    preview: 'https://codepen.io/hbo2023/pen/LYEyByW',
-    right: true,
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: 'Spotify API',
+    desc: 'Visualize your Spotify top artists and tracks.',
+    github: 'https://github.com/genialtechie/spotify-api',
+    tools: ['React', 'Express', 'Serverless-Functions', 'Spotify API'],
+  },
   {
     title: 'Dapp Starter kit',
     desc: 'A beginner-friendly decentralized app starter kit.',
@@ -55,7 +49,7 @@ export const PROJECTS = [
   },
   {
     title: 'Twitter Bot',
-    desc: 'This is a JavaScript app that uses both the IMGFlip and Twitter api.',
+    desc: 'Converts your tweet to a meme and replies to you.',
     github: 'https://github.com/genialtechie/twitter-bot',
     tools: ['APIs', 'Node.js'],
   },
@@ -79,13 +73,13 @@ export const PROJECTS = [
   },
   {
     title: 'Decentralized wallet',
-    desc: 'A hot wallet that works with MetaMask',
+    desc: 'Connect to MetaMask and send/recieve test tokens/eth.',
     github: 'https://github.com/genialtechie/decentralized-wallet',
     tools: ['Solidity', 'Node.js', 'Web3.js', 'Truffle'],
   },
   {
     title: 'Portfolio v2',
-    desc: 'Code to this site if you want to view.',
+    desc: 'Codebase for this site.',
     github: 'https://github.com/genialtechie/portfolio-v2',
     tools: ['React', 'Tailwind'],
   },
