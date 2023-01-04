@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.672dc29d.css",
-    "main.js": "/static/js/main.c94b90d7.js",
-    "static/media/JAI-site.PNG": "/static/media/JAI-site.cd8e2c5b03f826198adb.PNG",
-    "static/media/spotify-api1.PNG": "/static/media/spotify-api1.be799e365b3d2e31fc92.PNG",
+    "main.css": "/static/css/main.ac889938.css",
+    "main.js": "/static/js/main.f71a34ca.js",
+    "static/media/jai.png": "/static/media/jai.267cae8bdc30e6598ee5.png",
+    "static/media/loudr.png": "/static/media/loudr.78bf2507bf976919e711.png",
     "static/media/resume.pdf": "/static/media/resume.0a6723558798bcdfe254.pdf",
     "static/media/twitter.svg": "/static/media/twitter.f8ed4341222ee2f28c4001f97ccec60b.svg",
     "static/media/github.svg": "/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
@@ -15,11 +15,11 @@
     "static/media/my-work.svg": "/static/media/my-work.68faaf816389b50be4f3fd96c5438047.svg",
     "static/media/mail.svg": "/static/media/mail.5a387e74dbef285fe81a3cd40ea170b5.svg",
     "static/media/home.svg": "/static/media/home.5a85d11a5d6fb5e0ac68e6cf1fabf8ef.svg",
-    "main.672dc29d.css.map": "/static/css/main.672dc29d.css.map",
-    "main.c94b90d7.js.map": "/static/js/main.c94b90d7.js.map"
+    "main.ac889938.css.map": "/static/css/main.ac889938.css.map",
+    "main.f71a34ca.js.map": "/static/js/main.f71a34ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.672dc29d.css",
-    "static/js/main.c94b90d7.js"
+    "static/css/main.ac889938.css",
+    "static/js/main.f71a34ca.js"
   ]
 }
