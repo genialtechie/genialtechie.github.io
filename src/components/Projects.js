@@ -17,7 +17,7 @@ export const FEATURED = [
     image: loudr,
     tools: ['React', 'Tailwind', 'Firebase'],
     github: 'https://github.com/genialtechie/loudr-landing',
-    preview: 'https://loudronline.vercel.app',
+    preview: 'https://www.loudr.online',
     right: false,
   },
 ];
