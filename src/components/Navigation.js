@@ -3,7 +3,7 @@ import { ReactComponent as Contact } from '../images/contact.svg';
 import { ReactComponent as Home } from '../images/home.svg';
 import { ReactComponent as Work } from '../images/my-work.svg';
 import { ReactComponent as Resume } from '../images/resume.svg';
-import Pdf from '../images/resume.pdf';
+import Pdf from '../images/resume4-6-23.pdf';
 
 const Navigation = () => {
   return (
