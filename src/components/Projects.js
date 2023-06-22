@@ -1,15 +1,25 @@
 import JARentals from '../images/jai.png';
 import loudr from '../images/loudr.png';
+import magpollo from '../images/magpollo.png';
 
 export const FEATURED = [
   {
+    title: 'Magpollo',
+    desc: 'Website for Magpollo, my digital agency.',
+    image: magpollo,
+    tools: ['Nextjs', 'Tailwind', 'Nodemailer'],
+    github: 'https://github.com/genialtechie/magpollo-landing',
+    preview: 'https://magpollo.com',
+    right: true,
+  },
+  {
     title: 'JA Inflatables',
-    desc: 'E-commerce website for an event rental company. It features a shop, payment processing and uses the square seller dashboard.',
+    desc: 'E-commerce website for a kids event rental company. It features a shop, payment processing and uses the square seller dashboard.',
     image: JARentals,
     tools: ['Nextjs', 'Prisma', 'MongoDB', 'Square API'],
     github: 'https://github.com/genialtechie/event-replan',
-    preview: 'https://event-replan.vercel.app',
-    right: true,
+    preview: 'https://jumparoundinfl.com',
+    right: false,
   },
   {
     title: 'loudronline',
@@ -18,11 +28,17 @@ export const FEATURED = [
     tools: ['React', 'Tailwind', 'Firebase'],
     github: 'https://github.com/genialtechie/loudr-landing',
     preview: 'https://www.loudr.online',
-    right: false,
+    right: true,
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: 'No-Comment',
+    desc: 'A gpt powered comment generator for Visual Studio Code. It generates comments for your code based on the context.',
+    github: 'https://github.com/genialtechie/no-comment',
+    tools: ['Node.js', 'TypeScript', 'VSCode Extension', 'OpenAI API'],
+  },
   {
     title: 'Spotify API',
     desc: 'Visualize your Spotify top artists and tracks.',
@@ -63,12 +79,6 @@ export const PROJECTS = [
     title: 'Analog Clock',
     desc: 'An analog clock I designed using css and javascript.',
     github: 'https://github.com/genialtechie/css-js-clock',
-    tools: ['HTML', 'CSS', 'VanillaJS'],
-  },
-  {
-    title: 'Portfolio v1',
-    desc: 'My first portfolio on github pages',
-    github: 'https://github.com/genialtechie/twitter-bot',
     tools: ['HTML', 'CSS', 'VanillaJS'],
   },
   {
