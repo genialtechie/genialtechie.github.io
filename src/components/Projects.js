@@ -1,8 +1,38 @@
 import JARentals from '../images/jai.png';
 import loudr from '../images/loudr.png';
 import magpollo from '../images/magpollo.png';
+import herbsrus from '../images/herbs-r-us.png';
+import asf from '../images/asf.png';
+import motormentor from '../images/motormentor.png';
 
 export const FEATURED = [
+  {
+    title: 'Motormentor (Pre-launch)',
+    desc: 'Motormentor is a openai powered app that helps you diagnose your car problems, among other features.',
+    image: motormentor,
+    tools: ['Nextjs', 'Tailwind', 'OpenAI API', 'Stripe', 'Auth0'],
+    github: 'https://github.com/genialtechie/motor-mentor',
+    preview: 'https://motormentor.netlify.app',
+    right: true,
+  },
+  {
+    title: 'African Soulfood Restaurant',
+    desc: 'Restaurant-themed website for a client. It has a careers page that processes applications to email, and many other features.',
+    image: asf,
+    tools: ['Nextjs', 'Tailwind', 'Nodemailer'],
+    github: 'https://github.com/genialtechie/asf',
+    preview: 'https://www.theafricansoulfood.com',
+    right: false,
+  },
+  {
+    title: 'Herbs-R-Us',
+    desc: 'Website for a herbal medicine company. It features a shop, payment processing and uses the square seller dashboard.',
+    image: herbsrus,
+    tools: ['Nextjs', 'Prisma', 'MongoDB', 'Square API'],
+    github: 'https://github.com/genialtechie/herbs-r-us',
+    preview: 'https://www.herbs-r-us.com',
+    right: false,
+  },
   {
     title: 'Magpollo',
     desc: 'Website for Magpollo, my digital agency.',
