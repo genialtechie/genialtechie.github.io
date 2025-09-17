@@ -41,7 +41,7 @@ const Navigation = () => {
         </li>
         <li className="px-3 text-center transition duration-500 ease-in-out hover:text-fuchsia-700 md:hover:text-2xl md:hover:px-5 md:hover:drop-shadow-md ml-1 border-l-2 md:border-l-4 border-white">
           <a
-            href={resume}
+            href={Pdf}
             target="_ mx-autoblank"
             rel="noreferrer"
           >
