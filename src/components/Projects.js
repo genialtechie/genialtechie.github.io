@@ -3,17 +3,27 @@ import loudr from '../images/loudr.png';
 import magpollo from '../images/magpollo.png';
 import herbsrus from '../images/herbs-r-us.png';
 import asf from '../images/asf.png';
-import motormentor from '../images/motormentor.png';
+import grillz from '../images/grillz.png';
+import qualifies from '../images/qualifies.png';
 
 export const FEATURED = [
   {
-    title: 'Motormentor (Pre-launch)',
-    desc: 'Motormentor is a openai powered app that helps you diagnose your car problems, among other features.',
-    image: motormentor,
-    tools: ['Nextjs', 'Tailwind', 'OpenAI API', 'Stripe', 'Auth0'],
-    github: 'https://github.com/genialtechie/motor-mentor',
-    preview: 'https://motormentor.netlify.app',
+    title: '3d Grillz Design',
+    desc: 'A tool that allows users customize their grillz in the browser on a 3d model.',
+    image: grillz,
+    tools: ['Nextjs', 'Tailwind', 'Blender', 'React Three Fiber', 'Three.js'],
+    github: 'https://github.com/genialtechie/grillz-config',
+    preview: 'https://8ldwd2-5173.csb.app/',
     right: true,
+  },
+  {
+    title: 'Qualifies.me',
+    desc: 'Built in 72 hours at GTHacks 2025. llm powered on-the-fly resume tuner.',
+    image: qualifies,
+    tools: ['Nextjs', 'Tailwind', 'Blender', 'React Three Fiber', 'Three.js'],
+    github: 'https://github.com/genialtechie/resumate',
+    preview: 'https://qualifies.me',
+    right: false,
   },
   {
     title: 'African Soulfood Restaurant',
@@ -22,7 +32,7 @@ export const FEATURED = [
     tools: ['Nextjs', 'Tailwind', 'Nodemailer'],
     github: 'https://github.com/genialtechie/asf',
     preview: 'https://www.theafricansoulfood.com',
-    right: false,
+    right: true,
   },
   {
     title: 'Herbs-R-Us',
@@ -57,7 +67,7 @@ export const FEATURED = [
     image: loudr,
     tools: ['React', 'Tailwind', 'Firebase'],
     github: 'https://github.com/genialtechie/loudr-landing',
-    preview: 'https://www.loudr.online',
+    preview: 'https://loudr-landing.vercel.app/',
     right: true,
   },
 ];

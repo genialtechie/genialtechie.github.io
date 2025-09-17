@@ -2,7 +2,7 @@ import React, { useState, forwardRef } from 'react';
 import FeaturedProject from './FeaturedProject';
 import ProjectCard from './ProjectCard';
 import { FEATURED, PROJECTS } from './Projects';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 const MyWork = forwardRef((props, ref) => {
   const [showBtn, setShowBtn] = useState({
@@ -33,25 +33,25 @@ const MyWork = forwardRef((props, ref) => {
       className="page mb-28 mt-6 px-7 w-full md:mx-auto md:w-3/4 flex flex-col"
     >
       <h2 className="text-3xl mt-12 pt-14 mb-6">Explore my projects</h2>
-      <Fade
+      {/* <Fade
         bottom
         cascade
-      >
-        <div className=" md:block">
-          {FEATURED.map((project) => (
-            <FeaturedProject
-              key={project.title}
-              title={project.title}
-              desc={project.desc}
-              image={project.image}
-              tools={project.tools}
-              github={project.github}
-              preview={project.preview}
-              right={project.right}
-            />
-          ))}
-        </div>
-      </Fade>
+      > */}
+      <div className=" md:block">
+        {FEATURED.map((project) => (
+          <FeaturedProject
+            key={project.title}
+            title={project.title}
+            desc={project.desc}
+            image={project.image}
+            tools={project.tools}
+            github={project.github}
+            preview={project.preview}
+            right={project.right}
+          />
+        ))}
+      </div>
+      {/* </Fade> */}
 
       <div className="mt-3 flex flex-col">
         <h2 className=" md:block text-3xl mb-14">Other interesting works...</h2>
