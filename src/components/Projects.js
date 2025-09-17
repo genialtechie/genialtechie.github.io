@@ -41,7 +41,7 @@ export const FEATURED = [
     tools: ['Nextjs', 'Prisma', 'MongoDB', 'Square API'],
     github: 'https://github.com/genialtechie/herbs-r-us',
     preview: 'https://www.herbs-r-us.com',
-    right: false,
+    right: true,
   },
   {
     title: 'Magpollo',
@@ -50,7 +50,7 @@ export const FEATURED = [
     tools: ['Nextjs', 'Tailwind', 'Nodemailer'],
     github: 'https://github.com/genialtechie/magpollo-landing',
     preview: 'https://magpollo.com',
-    right: true,
+    right: false,
   },
   {
     title: 'JA Inflatables',
@@ -59,7 +59,7 @@ export const FEATURED = [
     tools: ['Nextjs', 'Prisma', 'MongoDB', 'Square API'],
     github: 'https://github.com/genialtechie/event-replan',
     preview: 'https://jumparoundinfl.com',
-    right: false,
+    right: true,
   },
   {
     title: 'loudronline',
