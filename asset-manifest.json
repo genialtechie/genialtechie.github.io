@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ac889938.css",
-    "main.js": "/static/js/main.351c2d6e.js",
+    "main.js": "/static/js/main.93d726bd.js",
     "static/media/asf.png": "/static/media/asf.a623bdce1375a134a9d5.png",
     "static/media/jai.png": "/static/media/jai.267cae8bdc30e6598ee5.png",
     "static/media/herbs-r-us.png": "/static/media/herbs-r-us.7823ddfed63fd8f3336b.png",
@@ -21,10 +21,10 @@
     "static/media/mail.svg": "/static/media/mail.5a387e74dbef285fe81a3cd40ea170b5.svg",
     "static/media/home.svg": "/static/media/home.5a85d11a5d6fb5e0ac68e6cf1fabf8ef.svg",
     "main.ac889938.css.map": "/static/css/main.ac889938.css.map",
-    "main.351c2d6e.js.map": "/static/js/main.351c2d6e.js.map"
+    "main.93d726bd.js.map": "/static/js/main.93d726bd.js.map"
   },
   "entrypoints": [
     "static/css/main.ac889938.css",
-    "static/js/main.351c2d6e.js"
+    "static/js/main.93d726bd.js"
   ]
 }
